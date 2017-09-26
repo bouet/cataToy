@@ -1,12 +1,19 @@
 class Jouet {
 
-    constructor(unLibelle){
-                this._libelle = unLibelle;
-            }
+
+    constructor(unLibelle,uneTancheAge){
+        this._libelle = unLibelle;
+        this._trancheAge = uneTancheAge;
+    }
 
     get libelle(){
-                return this._libelle;
-            }
+        return this._libelle;
+    }
+
+    get trancheAge(){
+        return this._trancheAge.toString();
+    }
+
 
 }
 module.exports = Jouet;
