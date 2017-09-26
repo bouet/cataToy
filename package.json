@@ -6,9 +6,12 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "MaelleT",
+  "author": "bouet",
   "license": "GPL-3.0",
   "devDependencies": {
     "mocha": "^3.5.3"
+  },
+  "dependencies": {
+    "express": "^4.15.5"
   }
 }
